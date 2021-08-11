@@ -1,0 +1,13 @@
+.input {
+	width: 90%;
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 0.5rem 1rem;
+	border: 2px solid black;
+	font-size: clamp(1.2rem, 7vw, 3rem);
+	display: block;
+}
+
+.input::placeholder {
+	color: inherit;
+}

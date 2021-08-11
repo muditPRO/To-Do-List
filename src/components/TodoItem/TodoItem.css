@@ -1,0 +1,16 @@
+.todoitem {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	max-width: 600px;
+	margin: 0.5rem auto;
+	padding: 0.5rem 1rem;
+	border: 4px solid black;
+	font-size: clamp(1rem, 5vw, 2rem);
+}
+
+.todoitem .icon-box {
+	display: grid;
+	place-items: center;
+}
